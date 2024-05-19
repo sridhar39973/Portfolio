@@ -113,7 +113,7 @@
   .text-container {
     text-align: justify;
   }
-  .layer{
+  .layer a h3{
     display: none;
   }
 }
