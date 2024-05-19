@@ -1,4 +1,8 @@
-
+@media screen and (min-width:1400px) {
+  .projects1{
+    display: none;
+  }
+}
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -11,6 +15,7 @@
   #projects {
     height: fit-content;
   }
+  
 }
 
 @media screen and (max-width: 1200px) {
