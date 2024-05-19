@@ -393,6 +393,7 @@ section {
   transition: opacity 0.2s ease; /* Add transition effect for opacity */
   cursor: pointer;
   font-size: 14px;
+
 }
 .layer p{
   color: white;
