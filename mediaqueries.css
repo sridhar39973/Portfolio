@@ -1,3 +1,52 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -50,21 +99,5 @@
   }
   .text-container {
     text-align: justify;
-  }
-  /* Adjustments for the projects section */
-  .work-list {
-    grid-template-columns: 1fr; /* One project per row */
-    gap: 20px; /* Space between the grid items */
-    margin: 10px;
-    margin-top: 20px;
-  }
-
-  .work img {
-    height: auto; /* Adjust height for mobile devices */
-  }
-
-  .layer {
-    height: auto; /* Adjust height for mobile devices */
-    padding: 10px; /* Adjust padding for mobile devices */
   }
 }
