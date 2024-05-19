@@ -349,58 +349,58 @@ section {
     line-height: 1.7;
     margin-left: 6px;
   }
-/*projects*/
-.work-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px; /* Space between the grid items */
-  margin: 20px;
-  margin-top: 50px;
+
+  .work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px; /* Space between the grid items */
+    margin: 20px;
+    margin-top: 50px;
 }
 
 .work img {
-  width: 100%;
-  height: 300px; /* Set a fixed height for all images */
-  object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire area */
-  border-radius: 10px;
-  display: block;
+    width: 100%;
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire area */
+    border-radius: 10px;
+    display: block;
 }
 
 .work h3 {
-margin-top: 20px; /* Adjust this value to increase or decrease space */
-text-align: center; /* Center the text */
+  margin-top: 20px; /* Adjust this value to increase or decrease space */
+  text-align: center; /* Center the text */
 }
 
 .work {
-position: relative;
+  position: relative;
 }
 
 .layer {
-width: 100%;
-height: 300px;
-background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
-border-radius: 10px;
-position: absolute;
-top: 0;
-left: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 20px; /* Adjust padding as needed */
-box-sizing: border-box; /* Include padding and border in the element's total width and height */
-opacity: 0; /* Initially hide the layer */
-transition: opacity 0.2s ease; /* Add transition effect for opacity */
-cursor: pointer;
-font-size: 14px;
-
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  opacity: 0; /* Initially hide the layer */
+  transition: opacity 0.2s ease; /* Add transition effect for opacity */
+  cursor: pointer;
+  font-size: 14px;
+  
 }
 .layer p{
-color: white;
+  color: white;
 }
 
 .work:hover .layer {
-opacity: 1; /* Show the layer on hover */
+  opacity: 1; /* Show the layer on hover */
 }
 .layer h3{
 font-weight: 500;
@@ -408,16 +408,16 @@ margin-bottom: 20px;
 color: white;
 }
 .layer a{
-margin-top: 20px;
-color: black;
-text-decoration: none;
-font-size: 18px;
-line-height: 50px;
-background: white;
-width: 50px;
-height: 50px;
-text-align: center;
-border-radius: 50%;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 50px;
+  background: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 /* Contact */ 
