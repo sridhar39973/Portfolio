@@ -387,6 +387,10 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  opacity: 0; /* Initially hide the layer */
+  transition: opacity 0.2s ease; /* Add transition effect for opacity */
   cursor: pointer;
   font-size: 14px;
 }
