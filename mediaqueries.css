@@ -55,6 +55,9 @@
     text-align: center;
     margin-top: 10px;
   }
+  .layer{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
