@@ -51,6 +51,10 @@
   .about-containers {
     margin-top: 0;
   }
+  .projects1{
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
