@@ -113,5 +113,7 @@
   .text-container {
     text-align: justify;
   }
-  
+  .layer{
+    display: none;
+  }
 }
