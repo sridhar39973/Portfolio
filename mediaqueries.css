@@ -101,3 +101,11 @@
     text-align: justify;
   }
 }
+
+
+/* Hide the layer on hover only on screen sizes up to 600px */
+@media screen and (max-width: 600px) {
+  .work:hover .layer {
+    opacity: 0; /* Hide the layer on hover */
+  }
+}
