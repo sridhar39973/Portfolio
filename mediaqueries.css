@@ -58,6 +58,9 @@
   .layer{
     display: none;
   }
+  .layer,.a ,.h3{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -113,7 +116,7 @@
   .text-container {
     text-align: justify;
   }
-  .layer a h3{
+  .layer,.a ,.h3{
     display: none;
   }
 }
